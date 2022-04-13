@@ -33,16 +33,19 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Cursor = System.Windows.Forms.Cursors.WaitCursor
         Me.Label1.Font = New System.Drawing.Font("Segoe Print", 105.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label1.Location = New System.Drawing.Point(138, 56)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(548, 247)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "AHHA"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.Cursor = System.Windows.Forms.Cursors.WaitCursor
         Me.Label2.Font = New System.Drawing.Font("Stencil", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New System.Drawing.Point(272, 263)
         Me.Label2.Name = "Label2"
@@ -53,23 +56,31 @@ Partial Class Form1
         'Timer1
         '
         Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 50
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(-2, 425)
+        Me.ProgressBar1.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.ProgressBar1.ForeColor = System.Drawing.Color.Lime
+        Me.ProgressBar1.Location = New System.Drawing.Point(-2, 440)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(804, 25)
+        Me.ProgressBar1.Size = New System.Drawing.Size(804, 10)
         Me.ProgressBar1.TabIndex = 2
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(355, 426)
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label3.Font = New System.Drawing.Font("Stencil", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(5, 418)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(90, 19)
+        Me.Label3.Size = New System.Drawing.Size(124, 16)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Loading..."
+        Me.Label3.Text = "Loading Screen..."
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
