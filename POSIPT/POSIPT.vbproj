@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>POSIPT</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>POSIPT.Form1</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
