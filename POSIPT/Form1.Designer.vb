@@ -22,16 +22,64 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
+        Me.Button1 = New System.Windows.Forms.Button()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(97, 183)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowTemplate.Height = 25
+        Me.DataGridView1.Size = New System.Drawing.Size(240, 150)
+        Me.DataGridView1.TabIndex = 1
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(130, 62)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 23)
+        Me.ComboBox1.TabIndex = 2
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(284, 115)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 3
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.DataGridView1)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
+
+    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents ColorDialog1 As ColorDialog
+    Friend WithEvents Button1 As Button
 End Class
