@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Form4
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,16 +23,19 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
+        Me.Button1dwadwa = New System.Windows.Forms.Button()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
-        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Button2dwadwa = New System.Windows.Forms.Button()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -87,14 +90,14 @@ Partial Class Form1
         Me.Label3.Text = "Loading Screen..."
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Button1
+        'Button1dwadwa
         '
-        Me.Button1.Location = New System.Drawing.Point(307, 84)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1dwadwa.Location = New System.Drawing.Point(284, 115)
+        Me.Button1dwadwa.Name = "Button1dwadwa"
+        Me.Button1dwadwa.Size = New System.Drawing.Size(75, 23)
+        Me.Button1dwadwa.TabIndex = 3
+        Me.Button1dwadwa.Text = "Button1"
+        Me.Button1dwadwa.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -122,22 +125,31 @@ Partial Class Form1
         Me.DataGridView2.Size = New System.Drawing.Size(240, 150)
         Me.DataGridView2.TabIndex = 5
         '
-        'Form1
+        'Button2dwadwa
+        '
+        Me.Button2dwadwa.Location = New System.Drawing.Point(333, 64)
+        Me.Button2dwadwa.Name = "Button2dwadwa"
+        Me.Button2dwadwa.Size = New System.Drawing.Size(75, 23)
+        Me.Button2dwadwa.TabIndex = 8
+        Me.Button2dwadwa.Text = "Button2"
+        Me.Button2dwadwa.UseVisualStyleBackColor = True
+        '
+        'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.MenuHighlight
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.DataGridView2)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Button2dwadwa)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
-        Me.Text = "AHHA"
+        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.Button1dwadwa)
+        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.Name = "Form4"
         Me.Text = "Form1"
 
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -146,13 +158,16 @@ Partial Class Form1
 
     End Sub
 
+    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents ColorDialog1 As ColorDialog
+    Friend WithEvents Button1dwadwa As Button
+    Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents DataGridView2 As DataGridView
+    Friend WithEvents Button2dwadwa As Button
 End Class
