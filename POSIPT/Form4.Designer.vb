@@ -27,12 +27,12 @@ Partial Class Form4
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button1dwadwa = New System.Windows.Forms.Button()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button2dwadwa = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -58,14 +58,14 @@ Partial Class Form4
         Me.ComboBox1.Size = New System.Drawing.Size(121, 23)
         Me.ComboBox1.TabIndex = 2
         '
-        'Button1
+        'Button1dwadwa
         '
-        Me.Button1.Location = New System.Drawing.Point(284, 115)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1dwadwa.Location = New System.Drawing.Point(284, 115)
+        Me.Button1dwadwa.Name = "Button1dwadwa"
+        Me.Button1dwadwa.Size = New System.Drawing.Size(75, 23)
+        Me.Button1dwadwa.TabIndex = 3
+        Me.Button1dwadwa.Text = "Button1"
+        Me.Button1dwadwa.UseVisualStyleBackColor = True
         '
         'ComboBox2
         '
@@ -102,26 +102,26 @@ Partial Class Form4
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "Label3"
         '
-        'Button2
+        'Button2dwadwa
         '
-        Me.Button2.Location = New System.Drawing.Point(333, 64)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 8
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2dwadwa.Location = New System.Drawing.Point(333, 64)
+        Me.Button2dwadwa.Name = "Button2dwadwa"
+        Me.Button2dwadwa.Size = New System.Drawing.Size(75, 23)
+        Me.Button2dwadwa.TabIndex = 8
+        Me.Button2dwadwa.Text = "Button2"
+        Me.Button2dwadwa.UseVisualStyleBackColor = True
         '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button2dwadwa)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Button1dwadwa)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Name = "Form4"
@@ -136,10 +136,10 @@ Partial Class Form4
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents ColorDialog1 As ColorDialog
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Button1dwadwa As Button
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button2 As Button
+    Friend WithEvents Button2dwadwa As Button
 End Class
