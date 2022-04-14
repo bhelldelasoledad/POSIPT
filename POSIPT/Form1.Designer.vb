@@ -29,6 +29,7 @@ Partial Class Form1
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -92,12 +93,22 @@ Partial Class Form1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(402, 79)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 5
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.MenuHighlight
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.ProgressBar1)
@@ -116,4 +127,5 @@ Partial Class Form1
     Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
